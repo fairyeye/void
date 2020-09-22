@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SPIDER
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+
+server:
+  port: 9999
+
+
+spider:
+  novel:
+    uri: https://www.biquge.lu
