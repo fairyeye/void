@@ -41,9 +41,12 @@ public class QiaPaoMian {
         t.start();
         Thread t1 = new Thread(paoMian);
         t1.start();
+//        Thread t2 = new Thread(qia);
+//        t2.start();
 
         shaoKaishui.get();
         paoMian.get();
+//        qia.get();
 
         qia();
 
@@ -63,6 +66,4 @@ public class QiaPaoMian {
         System.out.println("先烧开水。。。");
         Thread.sleep(500L);
     }
-
-
 }

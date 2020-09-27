@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: SPARE-EUREKA
+
+server:
+  port: 9998
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+    register-with-eureka: false # 表示是否将自己注册到Eureka Server，默认为true
+    fetch-registry: false # 表示是否从Eureka Server获取注册信息，默认为true。

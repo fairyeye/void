@@ -9,14 +9,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="spider" />
+        <module name="eureka-client" />
+        <module name="eureka" />
         <module name="wechat" />
+        <module name="spider" />
+        <module name="spare-eureka" />
         <module name="doa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="doa" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="spare-eureka" target="1.8" />
       <module name="spider" target="1.8" />
       <module name="wechat" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +31,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="doa" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="spare-eureka" options="-parameters" />
       <module name="spider" options="-parameters" />
       <module name="wechat" options="-parameters" />
     </option>
