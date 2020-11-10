@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: EPS
+  datasource:
+    url: jdbc:mysql://localhost:3306/eps?useUnicode=true&characterEncoding=utf-8&useSSL=false&rewriteBatchedStatements=true&serverTimezone=UTC
+    username: root
+    password: root
+
+server:
+  port: 8001
